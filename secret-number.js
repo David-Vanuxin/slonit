@@ -1,4 +1,4 @@
-const secretNumber = Math.random().toFixed(2) * 100
+const secretNumber = Math.round(Math.random().toFixed(2) * 100)
 
 const getTry = (start, end) => {
 	const number = Math.round((end + start) / 2)
@@ -7,12 +7,12 @@ const getTry = (start, end) => {
 
 	if (number < secretNumber) {
 		console.log("Компьютер 1: Больше")
-		return getTry(number, end)
+		return getTry(number + 1, end)
 	}
 
 	if (number > secretNumber) {
 		console.log("Компьютер 1: Меньше")
-		return getTry(start, number)
+		return getTry(start, number - 1)
 	}
 
 	return "Компьютер 1: Угадал!"
