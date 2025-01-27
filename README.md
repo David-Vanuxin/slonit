@@ -1,9 +1,47 @@
 # Репозиторий для домашних заданий
 
-Файлы:
-1. Задание №4: Git.md (Команды Git) 
-1. Задание №5: secret-number.js (Секретное число)
-1. Задание №9: array-methods/* (методы работы с массивами)
-1. Задание №10: objects.js (методы по работе с объектами)
-1. Задание №11: strings.js (работа со строками)
-1. Задание №13: functional-expression.js (Функциональные выражения)
+<table>
+ <caption>Решения заданий</caption>
+ <thead>
+  <th>№ задания</th>
+  <th>Тема</th>
+  <th>Имя файла</th>
+ </thead>
+ <tbody>
+  <tr>
+   <td>4</td>
+   <td>Команды Git</td>
+   <td>Git.md</td>
+  </tr>
+  <tr>
+   <td>5</td>
+   <td>Секретное число</td>
+   <td>secret-number.js</td>
+  </tr>
+  <tr>
+   <td>9</td>
+   <td>Методы работы с массивами</td>
+   <td>array-methods/*</td>
+  </tr>
+  <tr>
+   <td>10</td>
+   <td>Методы по работе с объектами</td>
+   <td>objects.js</td>
+  </tr>
+  <tr>
+   <td>11</td>
+   <td>Работа со строками</td>
+   <td>strings.js</td>
+  </tr>
+  <tr>
+   <td>13</td>
+   <td>Функциональные выражения</td>
+   <td>functional-expression.js</td>
+  </tr>
+  <tr>
+   <td>14</td>
+   <td>Стрелочные функции</td>
+   <td>arrow-functions.js</td>
+  </tr>
+ </tbody>
+</table>
