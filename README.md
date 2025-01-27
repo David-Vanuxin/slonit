@@ -14,7 +14,7 @@
    <td>Git.md</td>
   </tr>
   <tr>
-   <td>5</td>
+   <td>6</td>
    <td>Секретное число</td>
    <td>secret-number.js</td>
   </tr>
